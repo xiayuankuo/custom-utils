@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>clickhouse-wraps</module>
+        <module>netty-wraps</module>
     </modules>
 
     <properties>
@@ -42,6 +43,11 @@
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-table-api-java</artifactId>
                 <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>4.1.77.Final</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

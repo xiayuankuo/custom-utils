@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>clickhouse-wraps</module>
+        <module>function</module>
     </modules>
 
     <properties>

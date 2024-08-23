@@ -12,6 +12,8 @@
         <module>clickhouse-wraps</module>
         <module>function</module>
         <module>netty-wraps</module>
+        <module>compileflow-example</module>
+        <module>design-pattern</module>
     </modules>
 
     <properties>
@@ -49,6 +51,12 @@
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
                 <version>4.1.77.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.compileflow</groupId>
+                <artifactId>compileflow</artifactId>
+                <version>1.2.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
